@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Google Fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="font-Hanken">
+    <main class="flex min-h-screen bg-neutral-pale-blue">
+      <article
+        class="m-auto w-full max-w-[375px] bg-white xl:grid xl:h-[514px] xl:max-w-[736px] xl:grid-cols-2 xl:rounded-3xl"
+      >
+        <div
+          class="grid h-[356px] content-between rounded-b-3xl bg-gradient-to-b from-secondary-slate-blue to-secondary-royal-blue px-14 py-6 text-center text-white xl:h-full xl:content-around xl:rounded-3xl"
+        >
+          <h1 class="text-lg font-bold text-neutral-lavender xl:text-2xl">
+            Your Result
+          </h1>
+          <div
+            class="mx-auto flex h-[140px] w-[140px] flex-col items-center justify-center rounded-full bg-gradient-to-b from-secondary-violet-blue to-secondary-persian-blue xl:h-[200px] xl:w-[200px]"
+          >
+            <p class="text-6xl font-extrabold xl:text-7xl">76</p>
+            <p
+              class="font-bold text-neutral-lavender xl:text-lg xl:font-normal xl:opacity-50"
+            >
+              of 100
+            </p>
+          </div>
+          <div>
+            <h2 class="mb-2 text-2xl font-bold tracking-wide xl:text-3xl">
+              Great
+            </h2>
+            <p class="text-neutral-lavender xl:text-lg">
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </div>
+        <section
+          class="p-[30px] xl:flex xl:flex-col xl:justify-between xl:p-[42px]"
+        >
+          <h3 class="mb-5 text-lg font-bold xl:text-2xl">Summary</h3>
+          <div class="badges space-y-4"></div>
+          <button
+            class="mt-6 h-14 w-full rounded-full bg-neutral-dark-blue text-lg tracking-wider text-white hover:bg-gradient-to-b hover:from-secondary-slate-blue hover:to-secondary-royal-blue"
+            type="button"
+          >
+            Continue
+          </button>
+        </section>
+      </article>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Alexander Flores</a>.
+    </div>
+  </body>
+</html>

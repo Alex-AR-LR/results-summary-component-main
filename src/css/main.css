@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .badge {
+    @apply flex items-center gap-3 rounded-xl p-4;
+  }
+
+  .badge--red {
+    @apply bg-red-50 text-main-red;
+  }
+
+  .badge--orange {
+    @apply bg-orange-50 text-main-orangey;
+  }
+  .badge--teal {
+    @apply bg-teal-50 text-main-green-teal;
+  }
+  .badge--sky {
+    @apply bg-sky-50 text-main-cobalt;
+  }
+
+  .badge__category {
+    @apply text-lg;
+    color: inherit;
+  }
+
+  .badge__container-score {
+    @apply ms-auto space-x-1 font-bold  xl:text-lg;
+  }
+}
